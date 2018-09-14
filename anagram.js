@@ -1,9 +1,15 @@
 let anagrams = [];
 
 let genAnagrams = (word, anagram = '') => {
+    
+    
     if(!word){
         
+        
+        
        anagrams.push(anagram);
+        
+        
         
        }
     
