@@ -1,10 +1,23 @@
 let anagrams = [];
 
 let genAnagrams = (word, anagram = '') => {
+    if(!word){
+        
+       anagrams.push(anagram);
+        
+       }
     
     for(let i = 0; i < word.length; i++){
-        anagram+= word[i];
-        genAnagrams(word.slice(0,i) + word.slice(i + 1));
+        
+        
+        
+        
+        
+        genAnagrams(word.slice(0,i) + word.slice(i + 1), anagram);
+        
+        
+        
+        
     }
     
 }
