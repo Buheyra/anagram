@@ -1,4 +1,10 @@
+
+
 let anagrams = [];
+
+
+
+
 
 function genAnagrams(word, anagram=''){
     
