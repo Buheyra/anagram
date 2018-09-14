@@ -39,6 +39,11 @@ function genAnagrams(word, anagram=''){
         
         
         
+        
+        
+        
+        
+        
       genAnagrams( word.slice(0, i) + word.slice(i + 1), anagram + word[i] );
     }
     
